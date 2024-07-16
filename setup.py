@@ -15,13 +15,13 @@ def main():
         name='BNForest',
         version='0.1.0',
         author='Hannes Gubler',
-        author_email='gubler.hannes',
+        author_email='gubler.hannes@gmail.com',
         description='A package for generating synthetic data with a Bayesian network using random forests for conditional distributions',
         long_description=open('README.md').read(),
         long_description_content_type='text/markdown',
         url='https://github.com/hgubler/BNForest',
-        packages=find_packages(where='BNForest'),
-        package_dir={'': 'BNForest'},
+        packages=find_packages(where='src'),
+        package_dir={'': 'src'},
         install_requires=[
             'qosa-indices @ git+https://gitlab.com/qosa_index/qosa.git'
         ],
