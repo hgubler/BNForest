@@ -23,7 +23,7 @@ def main():
         packages=find_packages(where='src'),
         package_dir={'': 'src'},
         install_requires=[
-            'qosa @ git+https://gitlab.com/qosa_index/qosa.git'
+            'qosa-indices @ git+https://gitlab.com/qosa_index/qosa.git'
         ],
         classifiers=[
             'Programming Language :: Python :: 3',
