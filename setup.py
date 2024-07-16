@@ -20,6 +20,7 @@ setup(
         'openturns',
         'qosa @ git+https://gitlab.com/qosa_index/qosa.git'
     ],
+    setup_requires=['numba', 'numpy', 'pandas', 'scikit-learn', 'networkx', 'openturns'],
     classifiers=[
         'Programming Language :: Python :: 3',
         'License :: OSI Approved :: MIT License',
