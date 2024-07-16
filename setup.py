@@ -11,7 +11,15 @@ setup(
     url='https://github.com/hgubler/BNForest',
     packages=find_packages(where='src'),
     package_dir={'': 'src'},
-    install_requires=open('requirements.txt').read().splitlines(),
+    install_requires=[
+        'numpy',
+        'pandas',
+        'scikit-learn',
+        'networkx',
+        'numba',
+        'openturns',
+        'qosa @ git+https://gitlab.com/qosa_index/qosa.git'
+    ],
     classifiers=[
         'Programming Language :: Python :: 3',
         'License :: OSI Approved :: MIT License',
