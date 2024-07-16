@@ -4,4 +4,3 @@ scikit-learn
 networkx
 numba
 openturns
-git+https://gitlab.com/qosa_index/qosa.git
