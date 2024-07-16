@@ -117,6 +117,8 @@ class BNForestSampler:
         """
         Get synthetic data from the causal DAG
         """
+        # check wether dataframe is float
+        self.data = self.data.astype('float')
         # fit quantile regression forests
         self.fit_quantile_regression_forests()
         # sample synthetic data
