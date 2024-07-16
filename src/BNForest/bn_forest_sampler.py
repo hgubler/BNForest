@@ -26,13 +26,13 @@ class BNForestSampler:
     """
 
     def __init__(self,
-                 data=None,
-                 max_depth=5,
-                 min_samples_leaf=6,
-                 n_trees=100,
-                 n_samples=1000,
-                 causal_dag=None,
-                 n_quantiles=10) -> None:
+                 data: pd.DataFrame = None,
+                 max_depth: int = 5,
+                 min_samples_leaf: int = 6,
+                 n_trees: int = 100,
+                 n_samples: int = 1000,
+                 causal_dag: nx.DiGraph=None,
+                 n_quantiles: int=10) -> None:
         self.data = data
         self.n_trees = n_trees
         self.max_depth = max_depth
