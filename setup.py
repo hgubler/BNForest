@@ -14,12 +14,12 @@ def main():
     setup(
         name='BNForest',
         version='0.1.0',
-        author='Your Name',
-        author_email='your.email@example.com',
-        description='A package for Bayesian Network Forest Sampling',
+        author='Hannes Gubler',
+        author_email='hannes.gubler@epfl.ch',
+        description='A package for generating synthetic data with a Bayesian network using random forests for conditional distributions',
         long_description=open('README.md').read(),
         long_description_content_type='text/markdown',
-        url='https://github.com/yourusername/BNForest',
+        url='https://github.com/hgubler/BNForest',
         packages=find_packages(where='src'),
         package_dir={'': 'src'},
         install_requires=[
