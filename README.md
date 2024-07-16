@@ -9,7 +9,7 @@
 
 ## Installation
 
-You can install the `BNForest` package directly from GitHub using pip. Open your terminal and run:
+The `BNForest` package can be installed directly from GitHub using pip. Simply open the terminal and run:
 
 ```bash
 pip install git+https://github.com/hgubler/BNForest.git
