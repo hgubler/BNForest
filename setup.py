@@ -4,7 +4,7 @@ import sys
 
 def install_build_dependencies():
     """Install build dependencies from requirements-build.txt."""
-    with open('requirements-build.txt') as f:
+    with open('requirements.txt') as f:
         requirements = f.read().splitlines()
         subprocess.check_call([sys.executable, '-m', 'pip', 'install'] + requirements)
 
