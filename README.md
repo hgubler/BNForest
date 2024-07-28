@@ -1,6 +1,6 @@
 # BNForest
 
-`BNForest` is a Python package for generating synthetic data with Bayesian networks using random forests for the estimation of conditional distributions. It provides tools to sample data based on a causal Directed Acyclic Graph (DAG). If the data variables follow a temporal order, `BNForest` provides a function for specifying a causal DAG based on such an ordering.
+`BNForest` is a Python package for generating synthetic data with Bayesian networks using random forests for the estimation of conditional distributions. It is the implementation of my final strategy for causal synthetic data generation developped during my Master's thesis. `BNForest` provides tools to sample data based on a causal Directed Acyclic Graph (DAG). If the data variables follow a temporal order, `BNForest` provides a function for specifying a causal DAG based on such an ordering.
 
 ## Features
 
